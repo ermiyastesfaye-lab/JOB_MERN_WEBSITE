@@ -1,0 +1,60 @@
+.titlea {
+  font-size: 2.3rem;
+  color: var(--PRIMARY);
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+.apply {
+  padding: 12rem 10rem;
+}
+.apply_category {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.apply_category input {
+  width: 18rem;
+  height: 2.5rem;
+  border: 3px solid var(--PRIMARY);
+  background-color: transparent;
+  border-radius: 6px;
+  padding: 0.3rem 0.5rem;
+  font-weight: bold;
+}
+
+.apply_form textarea {
+  width: 39rem;
+  height: 13rem;
+  border: 3px solid var(--PRIMARY);
+  background-color: transparent;
+  border-radius: 6px;
+  padding: 0.3rem 0.5rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.contact-btn {
+  padding: 0.9rem;
+  position: relative;
+  border: 2px solid var(--PRIMARY);
+  border-radius: 10px;
+  background-color: var(--PRIMARY);
+  color: var(--SECONDARY);
+  font-weight: bold;
+  width: 200px;
+  font-size: 1.2rem;
+  z-index: 1;
+  overflow: hidden;
+  transition: 0.5s;
+  color: white;
+}
+
+.contact-btn:hover {
+  background-color: var(--PRIMARY);
+  transform: scale(1.05);
+}
+
+.contact-btn:active {
+  transform: scale(0.9);
+}

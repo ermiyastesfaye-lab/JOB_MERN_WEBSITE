@@ -1,0 +1,202 @@
+#contact {
+  padding: 0.1rem 5rem;
+  min-height: 100vh;
+  margin-bottom: 7rem;
+}
+
+.contact {
+  display: flex;
+  width: 100%;
+  gap: 5rem;
+  align-items: center;
+  margin-top: 11rem;
+}
+
+.your-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1.5rem;
+  padding: 2rem;
+  border-radius: 15px;
+  width: 50%;
+}
+
+.contact-heading {
+  font-size: 2.3rem;
+  color: var(--PRIMARY);
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.personal-info {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 1.5rem;
+  row-gap: 1.5rem;
+}
+
+.personal-info input {
+  height: 2.3rem;
+  background-color: var(--BG-COLOR);
+  border: 3px solid var(--PRIMARY);
+  border-radius: 5px;
+  padding: 0.7rem;
+  color: var(--SECONDARY);
+  font-size: 1rem;
+  width: 90%;
+}
+
+.personal-info input:focus {
+  outline: none;
+}
+
+.business-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.contact-category {
+  height: 2.5rem;
+  border: 1px solid var(--PRIMARY);
+  background-color: var(--BG-COLOR);
+  border-radius: 5px;
+  padding: 0.7rem;
+  color: var(--SECONDARY);
+}
+
+.contact-category:focus {
+  outline: none;
+}
+
+.contact-msg {
+  height: 10rem;
+  background-color: var(--BG-COLOR);
+  border: 3px solid var(--PRIMARY);
+  border-radius: 5px;
+  padding: 0.7rem;
+  color: var(--SECONDARY);
+  font-size: 1rem;
+  width: 95%;
+}
+
+.contact-msg:focus {
+  outline: none;
+}
+
+.contact-btn {
+  margin-bottom: 0rem;
+}
+
+.contact-btn button {
+  padding: 0.9rem;
+  position: relative;
+  border: 2px solid var(--PRIMARY);
+  border-radius: 10px;
+  background-color: var(--PRIMARY);
+  color: var(--SECONDARY);
+  font-weight: bold;
+  width: 200px;
+  height: 3rem;
+  font-size: 1.2rem;
+  z-index: 1;
+  overflow: hidden;
+  transition: 0.5s;
+  color: white;
+}
+
+.contact-btn button:hover {
+  background-color: var(--PRIMARY);
+  transform: scale(1.05);
+}
+
+.contact-btn button:active {
+  transform: scale(0.9);
+}
+
+.my-info {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.info-display {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.info-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--PRIMARY);
+  background-color: var(--BG-COLOR);
+  border-radius: 5px;
+  padding: 1rem 1.5rem;
+}
+
+.info-icon i {
+  color: var(--PRIMARY);
+  font-size: 1.5rem;
+}
+
+.info-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.info-content p {
+  font-size: 1.2rem;
+}
+
+.info-content .info-label {
+  font-size: 1.1 rem;
+  color: grey;
+}
+
+.error {
+  color: red;
+  font-size: 0.9rem;
+  padding: 0.2rem;
+}
+
+@media only screen and (max-width: 1000px) {
+  #contact {
+    padding: 0.1rem 0rem;
+  }
+
+  .contact {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    margin-top: 1rem;
+    align-items: flex-start;
+  }
+
+  .your-info {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1001px) and (max-width: 1024px) {
+  #contact {
+    padding: 0.1rem 0rem;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+  #contact {
+    padding: 0.1rem 0rem;
+  }
+
+  .contact {
+    gap: 4rem;
+  }
+}

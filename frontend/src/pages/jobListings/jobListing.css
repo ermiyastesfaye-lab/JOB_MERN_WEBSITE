@@ -1,0 +1,104 @@
+.listing {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 70%;
+  row-gap: 2rem;
+  column-gap: 2rem;
+  padding: 1.5rem 1.6rem;
+}
+.each_listing {
+  border: 4px solid var(--PRIMARY);
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  border-radius: 20px;
+  transition: 0.4s ease-in;
+}
+
+.each_listing:hover {
+  color: white;
+  transform: scale(1.09);
+  cursor: pointer;
+}
+.job_header {
+  display: flex;
+  align-items: center;
+}
+
+.listing_logo {
+  width: 3rem;
+  height: 3rem;
+}
+
+.job_company {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.job_location {
+  font-size: 0.8rem;
+  color: rgb(124, 123, 123);
+  font-weight: bold;
+}
+
+.job_title {
+  font-size: 1.4rem;
+}
+
+.job_info {
+  display: flex;
+  width: 100%;
+  gap: 1rem;
+}
+
+.job_type {
+  border: 3px solid var(--PRIMARY);
+  width: 7rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.2rem 0.1rem;
+  border-radius: 20px;
+}
+
+.job_category {
+  border: 3px solid var(--PRIMARY);
+  width: 10rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+
+.job_deadline {
+  font-weight: bold;
+  color: var(--PRIMARY);
+}
+
+.job_deadline .date {
+  text-decoration: none;
+}
+.job_btn {
+  display: flex;
+  justify-content: space-between;
+}
+
+.job_btns {
+  width: 6rem;
+  height: 2rem;
+  border: 3px solid var(--PRIMARY);
+  color: var(--PRIMARY);
+  font-weight: bold;
+  border-radius: 15px;
+  font-size: 1rem;
+  background-color: transparent;
+  transition: 0.3s ease-in;
+}
+
+.job_btns:hover {
+  background-color: var(--PRIMARY);
+  color: white;
+}

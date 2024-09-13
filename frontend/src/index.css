@@ -1,0 +1,35 @@
+:root {
+  --BGCOLOR: black;
+  --PRIMARY: #61c609;
+  --SECONDARY: white;
+}
+
+* {
+  font-family: sans-serif;
+  color: var(--SECONDARY);
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  background-color: var(--BGCOLOR);
+}
+
+Link {
+  text-decoration: none;
+}
+
+button {
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease-in;
+}
+
+button:active {
+  transform: scale(0.9);
+}
+
+/* rgb(238, 238, 238) */
+/* rgb(124, 123, 123) */

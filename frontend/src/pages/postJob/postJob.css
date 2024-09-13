@@ -1,0 +1,118 @@
+.postJob {
+  padding: 1.5rem 3rem;
+}
+.my_post {
+  text-decoration: none;
+  font-size: 1.4rem;
+  font-weight: bold;
+  border: 2px solid var(--PRIMARY);
+  border-radius: 15px;
+  padding: 0.5rem 2rem;
+  transition: 0.3s ease-in;
+}
+.my_post:hover {
+  background-color: var(--PRIMARY);
+  color: white;
+}
+
+.job_form {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  margin-top: 2rem;
+}
+
+.category {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.aboutCompany {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 2rem;
+  width: 70%;
+}
+.abtCompany {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+label {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: rgb(184, 184, 184);
+}
+
+.abtCompany input {
+  width: 18rem;
+  height: 2.5rem;
+  border: 3px solid var(--PRIMARY);
+  background-color: transparent;
+  border-radius: 6px;
+  padding: 0.3rem 0.5rem;
+  font-weight: bold;
+}
+
+.job_detail {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 70%;
+  gap: 2rem;
+}
+
+.job_info {
+  display: flex;
+  flex-direction: column;
+}
+.each_info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.each_info input {
+  width: 18rem;
+  height: 2.5rem;
+  border: 3px solid var(--PRIMARY);
+  background-color: transparent;
+  border-radius: 6px;
+  padding: 0.3rem 0.5rem;
+  font-weight: bold;
+}
+
+.each_info textarea {
+  width: 18rem;
+  height: 10rem;
+  border: 3px solid var(--PRIMARY);
+  background-color: transparent;
+  border-radius: 6px;
+  padding: 0.3rem 0.5rem;
+  font-weight: bold;
+}
+
+.contact-btn {
+  padding: 0.9rem;
+  position: relative;
+  border: 2px solid var(--PRIMARY);
+  border-radius: 10px;
+  background-color: var(--PRIMARY);
+  color: var(--SECONDARY);
+  font-weight: bold;
+  width: 200px;
+  font-size: 1.2rem;
+  z-index: 1;
+  overflow: hidden;
+  transition: 0.5s;
+  color: white;
+}
+
+.contact-btn:hover {
+  background-color: var(--PRIMARY);
+  transform: scale(1.05);
+}
+
+.contact-btn:active {
+  transform: scale(0.9);
+}
